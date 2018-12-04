@@ -2,6 +2,7 @@
   "name": "hackathon",
   "private": true,
   "scripts": {
+    "build": "webpack",
     "start": "supervisor -w dist -w index.html ./server.js",
     "watch": "webpack -w"
   },
